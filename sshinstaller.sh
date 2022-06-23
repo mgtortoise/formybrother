@@ -13,7 +13,7 @@ cd build
 cmake .. -DBUILD_NOTHING_BY_DEFAULT=1 -DBUILD_TUN2SOCKS=1 -DBUILD_UDPGW=1;make install;
 wget https://raw.githubusercontent.com/mgtortoise/bashMe/main/dropbear
 wget https://raw.githubusercontent.com/mgtortoise/pdme/main/main.py
-wget https://github.com/mgtortoise/pdme/blob/main/websocket.service
+wget https://raw.githubusercontent.com/mgtortoise/pdme/main/websocket.service
 wget https://raw.githubusercontent.com/mgtortoise/hellogithub/master/stunnel.conf
 wget https://raw.githubusercontent.com/mgtortoise/hellogithub/master/stunnel4
 mv main.py websocket.service /etc/systemd/system/
